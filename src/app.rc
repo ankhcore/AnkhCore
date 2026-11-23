@@ -1,0 +1,27 @@
+#include <windows.h>
+1 ICON "res/ankh.ico"
+ANKHMARK RCDATA "res/ankh256.png"
+BRANDLOGO RCDATA "res/brand_logo.png"
+BRANDBG RCDATA "res/brand_background.png"
+1 RT_MANIFEST "app.manifest"
+1 VERSIONINFO
+FILEVERSION 2,11,0,0
+PRODUCTVERSION 2,11,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "CompanyName", "As3aD"
+      VALUE "FileDescription", "AnkhCore Control Center"
+      VALUE "FileVersion", "2.11.0.0"
+      VALUE "ProductName", "AnkhCore Control Center"
+      VALUE "ProductVersion", "2.11 Beta - Feature Freeze"
+      VALUE "LegalCopyright", "As3aD"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

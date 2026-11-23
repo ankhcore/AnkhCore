@@ -1,0 +1,9 @@
+Notebook fan configurations (this folder)
+-----------------------------------------
+The 243 *.xml files here are the community notebook fan configurations of the NoteBook FanControl project (NBFC / NBFC-Revive):
+they document, per notebook model, the embedded-controller registers that set the fan speed.
+They are shipped UNMODIFIED, as data. AnkhCore's own fan-control engine reads them; no NBFC program is installed or run.
+
+  Project:  https://github.com/hirschmann/nbfc  and the NBFC-Revive fork
+  Licence:  GNU General Public License v3.0 (GPL-3.0). The licence text is in the NBFC-Revive repository (LICENSE.md).
+  The configuration authors are named inside each file (<Author>).

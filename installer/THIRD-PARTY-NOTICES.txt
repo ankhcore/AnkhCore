@@ -1,0 +1,55 @@
+AnkhCore 2.5 - third-party notices
+==================================
+
+AnkhCore is developed by As3aD. The hardware-monitoring helper (Sensors\AnkhSensors.exe) is built on
+this PC from its source (Sensors\AnkhSensors.cs) and uses the components below, which are distributed
+unmodified. Each remains under its own licence; the source code of each is available at the address given.
+
+LibreHardwareMonitorLib 0.9.6
+  Copyright (c) LibreHardwareMonitor contributors
+  Licence: Mozilla Public License 2.0 (MPL-2.0) - https://mozilla.org/MPL/2.0/
+  Source: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+
+HidSharp 2.6.4
+  Copyright (c) 2010-2025 James F. Bellinger
+  Licence: Apache License 2.0 - https://www.apache.org/licenses/LICENSE-2.0
+  Source: http://software.seekye.com/hidsharp
+
+BlackSharp.Core 1.0.7, DiskInfoToolkit 1.1.2, RAMSPDToolkit-NDD 1.4.2
+  Copyright (c) Florian K. (Blacktempel)
+  Licence: see each repository [to be confirmed before a public release]
+  Source: https://github.com/Blacktempel/BlackSharp
+          https://github.com/Blacktempel/DiskInfoToolkit
+          https://github.com/Blacktempel/RAMSPDToolkit
+
+System.Buffers, System.Memory, System.Numerics.Vectors, System.Runtime.CompilerServices.Unsafe
+  Copyright (c) .NET Foundation and Contributors / Microsoft Corporation
+  Licence: MIT License - https://github.com/dotnet/runtime/blob/main/LICENSE.TXT
+  Source: https://github.com/dotnet/runtime
+
+PawnIO 2.2 (Sensors\PawnIO_setup.exe; installs a signed driver used to read hardware sensors)
+  Copyright (c) namazso
+  Licence: see the PawnIO project [to be confirmed before a public release]
+  Source: https://github.com/namazso/PawnIO
+
+smartmontools (smartctl.exe; optional component Tools\smartctl.exe, run as a separate program, never linked into AnkhCore)
+  Copyright (c) Bruce Allen, Christian Franke and the smartmontools contributors
+  Licence: GNU General Public License, version 2 (COPYING.smartmontools ships beside the program)
+  Source: https://www.smartmontools.org/ and https://github.com/smartmontools/smartmontools
+  The matching source of the shipped smartctl.exe is available from the AnkhCore owner on request.
+  STATUS (2026-11-15): no smartctl.exe is bundled yet. The owner has not approved or supplied an official 64-bit release, so this notice applies
+  only once the optional component is packaged. [To be confirmed before it is packaged: exact version, publisher signature, source archive for GPL-2.0 section 3.]
+
+SecureUxTheme (SecureUxTheme\ThemeDll.dll, SecureUxTheme.signed.dll, ThemeTool.exe; signed in-memory custom theme loader)
+  Copyright (c) namazso
+  Licence: GNU Lesser General Public License v2.1 (LGPL-2.1) - https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+  Source: https://github.com/namazso/SecureUxTheme
+
+PawnIO.Modules 0.2.12 - LpcThinkpadEC.bin and DellSMM.bin (Sensors\PawnIO\; signed modules loaded into the PawnIO driver to read the fan speed of ThinkPad and Dell notebooks, read-only)
+  Copyright: namazso and contributors
+  Licence: GNU Lesser General Public License v2.1 (LGPL-2.1); the licence text is shipped as Sensors\PawnIO\COPYING.PawnIO.Modules.txt
+  The modules are shipped UNMODIFIED, exactly as released (SHA-256 checked by AnkhCore before loading).
+  Source: https://github.com/namazso/PawnIO.Modules
+
+Fonts and icons in the AnkhCore interface (Segoe UI, Segoe MDL2 Assets / Segoe Fluent Icons) are part of
+Windows and are not distributed with AnkhCore.
