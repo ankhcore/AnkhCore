@@ -12,13 +12,18 @@ Windows 10 and Windows 11.
 ## Windows animations in action
 
 With the **Anubis - Windows Animations** mod (managed from Windows Studio > Windhawk), ordinary Windows
-windows get their own open, close, minimize and restore effects.
+windows get their own open, close, minimize and restore effects. These recordings show the full desktop:
+the AnkhCore desktop Sidebar on the right, the taskbar at the bottom, and the effects as they happen.
 
-**Opening and closing a File Explorer window ("This PC")**
+**Start menu** - opening and closing
 
-![Opening and closing This PC](docs/images/window-open-close.gif)
+![Start menu](docs/images/start-menu.gif)
 
-**Minimizing and restoring AnkhCore**
+**Opening and closing windows** - File Explorer ("This PC") and Notepad
+
+![Opening and closing windows](docs/images/window-open-close.gif)
+
+**Minimizing and restoring AnkhCore** - four rounds, each with a different effect
 
 ![Minimizing and restoring AnkhCore](docs/images/app-minimize-restore.gif)
 
