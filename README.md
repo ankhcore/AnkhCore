@@ -9,6 +9,19 @@ Windows 10 and Windows 11.
 > **Status:** Beta. Some features depend on your Windows version, hardware and third-party
 > components; those dependencies are stated next to each feature below.
 
+## Windows animations in action
+
+With the **Anubis - Windows Animations** mod (managed from Windows Studio > Windhawk), ordinary Windows
+windows get their own open, close, minimize and restore effects.
+
+**Opening and closing a File Explorer window ("This PC")**
+
+![Opening and closing This PC](docs/images/window-open-close.gif)
+
+**Minimizing and restoring AnkhCore**
+
+![Minimizing and restoring AnkhCore](docs/images/app-minimize-restore.gif)
+
 ## Contents
 
 1. [Main navigation](#main-navigation)
