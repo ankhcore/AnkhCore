@@ -388,7 +388,7 @@ All rights reserved. The source is published for viewing only; see
 
 ## Special thanks
 
-AnkhCore stands on the work of many people. Thank you to:
+AnkhCore is built on top of the work of these projects and their authors. Thank you to:
 
 - **ReDrag** - for *Windows Animations*, the foundation Anubis grew from.
 - **m417z** and the **Windhawk** team (Ramen Software) - for Windhawk and the *Resource Redirect* mod that
@@ -400,8 +400,6 @@ AnkhCore stands on the work of many people. Thank you to:
 - **Bruce Allen, Christian Franke and the smartmontools contributors** - for SMART disk diagnostics.
 - **Marti Climent and the UniGetUI contributors** - for program updates.
 - **Microsoft and the PowerToys contributors** - for PowerToys.
-- **The authors of the projects that inspired AnkhCore's own tools** - System Informer, Process Governor,
-  Sophia Script, WinUtil, BleachBit, Ananicy and ThreadPilot.
 - **The community theme, cursor and icon-pack creators** - niivu, Mr GRiM, Moonnique, Dark Knight, Mr Blade,
   Razorsedge and everyone behind BIB, HUD Evolution, Tech Icons, Magnum Dark, Sweet Paranoia and Big Sur 2.
 
