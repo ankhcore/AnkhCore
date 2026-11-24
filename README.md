@@ -27,6 +27,19 @@ the AnkhCore desktop Sidebar on the right, the taskbar at the bottom, and the ef
 
 ![Minimizing and restoring AnkhCore](docs/images/app-minimize-restore.gif)
 
+**More effects, recorded from a real session** - the same windows, different animation each time
+
+![File Explorer effects](docs/images/effects-this-pc.gif)
+
+![Dissolve, 3D flip and ink swirl](docs/images/effects-dissolve-flip-swirl.gif)
+
+![Portal ring, glowing ankh and rainbow border](docs/images/effects-portal-ankh-border.gif)
+
+**The full desktop** - AnkhCore Control Center beside the Sidebar and the taskbar
+
+![Full desktop](docs/images/desktop-full.jpg)
+
+![Full desktop, second theme](docs/images/desktop-full-2.jpg)
 ## Contents
 
 1. [Main navigation](#main-navigation)
