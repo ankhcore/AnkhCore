@@ -48,6 +48,16 @@ the theme applied to the Start menu, File Explorer and the quick settings flyout
 
 ![Start menu animation](docs/images/start-menu.gif)
 
+**The same shell on the second theme** - File Explorer, Start menu, quick settings and the notification centre
+
+![File Explorer, second theme](docs/images/live-this-pc.jpg)
+
+![Start menu, second theme](docs/images/live-start-menu.jpg)
+
+![Quick settings, second theme](docs/images/live-quick-settings.jpg)
+
+![Notification centre and calendar](docs/images/live-notifications.jpg)
+
 **A restore caught mid-effect, and the full desktop**
 
 ![Restore effect](docs/images/effect-glitch-restore.jpg)
