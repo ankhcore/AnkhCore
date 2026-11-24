@@ -6,6 +6,9 @@ Windows 10 and Windows 11.
 
 ![AnkhCore tour](docs/images/tour.gif)
 
+**Watch the announcement video** (AnkhCore V4 - NVIDIA Cinema Master, MP4, about 160 MB):
+[download / play AnkhCore_V4_NVIDIA_Cinema_Master.mp4](https://github.com/ankhcore/AnkhCore/releases/download/v3.0.3/AnkhCore_V4_NVIDIA_Cinema_Master.mp4)
+
 > **Status:** Beta. Some features depend on your Windows version, hardware and third-party
 > components; those dependencies are stated next to each feature below.
 
@@ -315,6 +318,19 @@ rules and Restore. Critical and security processes are protected.
 ![Recovery](docs/images/recovery.png)
 
 - **Backup & Migration:** portable `.acbackup` archives with selective restore, settings merge, and automatic pre-change backups.
+- **Software Backup & Restore** (a page of its own under Recovery): back up installed programs and restore them later.
+  - **Backup:** *Scan installed programs*, then tick the programs you want. The list is grouped as **Full copy**
+    (program folder, settings and registry keys are all copied), **Updater + data** (only settings and registry keys;
+    install the program again first, then restore on top) and **Skipped** (system parts and programs with nothing to
+    copy). Filter buttons show the count of each group and *Select this group* ticks one group at once.
+  - **A Back up button that stays at the bottom** of the window, so a program picked far down a long list is one click
+    from *Back up*. A program with nothing to copy is a skip, not a failure.
+  - **Restore** has its own page (*Restore...* next to the backup buttons): open a backup, tick the programs, and press
+    *Restore*, which also stays at the bottom. Every part is checked against its SHA-256 before it is put back; a file
+    that is newer on this PC is kept, anything replaced is saved as `.ankh-before`, and a program that is open blocks
+    its own restore.
+  - **Never copied:** caches, logs, saved passwords, sign-ins, tokens, keys, drivers and Windows parts.
+  - Backup, restore and program updates run in the background: the rest of the window stays usable.
 - **Recovery Points:** create and manage restore points for supported reversible changes.
 - **Recovery History:** a journal of every change AnkhCore made, with Undo for supported operations (individually or all).
 
