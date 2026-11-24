@@ -397,9 +397,6 @@ AnkhCore is built on top of the work of these projects and their authors. Thank 
 - **The LibreHardwareMonitor contributors**, **Florian K. (Blacktempel)** and **James F. Bellinger** (HidSharp) -
   for the sensor libraries behind the hardware readings.
 - **The NoteBook FanControl (NBFC) authors and contributors** - for the notebook fan configurations.
-- **Bruce Allen, Christian Franke and the smartmontools contributors** - for SMART disk diagnostics.
-- **Marti Climent and the UniGetUI contributors** - for program updates.
-- **Microsoft and the PowerToys contributors** - for PowerToys.
 - **The community theme, cursor and icon-pack creators** - niivu, Mr GRiM, Moonnique, Dark Knight, Mr Blade,
   Razorsedge and everyone behind BIB, HUD Evolution, Tech Icons, Magnum Dark, Sweet Paranoia and Big Sur 2.
 
