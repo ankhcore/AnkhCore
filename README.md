@@ -12,22 +12,23 @@ Windows 10 and Windows 11.
 ## Windows animations in action
 
 With the **Anubis - Windows Animations** mod (managed from Windows Studio > Windhawk), ordinary Windows
-windows get their own open, close, minimize and restore effects. These recordings show the full desktop:
-the AnkhCore desktop Sidebar on the right, the taskbar at the bottom, and the effects as they happen.
+windows get their own open, close, minimize and restore effects. Everything below is a real recording or
+screenshot of the full desktop: the AnkhCore desktop Sidebar on the right, the taskbar at the bottom, and
+the theme applied to the Start menu, File Explorer and the quick settings flyout.
 
-**Start menu** - opening and closing
+**Start menu** - themed with the same translucent acrylic look
 
-![Start menu](docs/images/start-menu.gif)
+![Start menu](docs/images/start-menu.jpg)
 
-**Opening and closing windows** - File Explorer ("This PC") and Notepad
+**File Explorer ("This PC")** - open, with the theme and acrylic blur
 
-![Opening and closing windows](docs/images/window-open-close.gif)
+![File Explorer](docs/images/explorer-open.jpg)
 
-**Minimizing and restoring AnkhCore** - four rounds, each with a different effect
+**Quick settings** - Wi-Fi, Bluetooth and the other tiles
 
-![Minimizing and restoring AnkhCore](docs/images/app-minimize-restore.gif)
+![Quick settings](docs/images/quick-settings.jpg)
 
-**More effects, recorded from a real session** - the same windows, different animation each time
+**Window effects in motion** - the same windows, a different animation each time
 
 ![File Explorer effects](docs/images/effects-this-pc.gif)
 
@@ -35,11 +36,15 @@ the AnkhCore desktop Sidebar on the right, the taskbar at the bottom, and the ef
 
 ![Portal ring, glowing ankh and rainbow border](docs/images/effects-portal-ankh-border.gif)
 
-**The full desktop** - AnkhCore Control Center beside the Sidebar and the taskbar
+**A restore caught mid-effect, and the full desktop**
+
+![Restore effect](docs/images/effect-glitch-restore.jpg)
 
 ![Full desktop](docs/images/desktop-full.jpg)
 
 ![Full desktop, second theme](docs/images/desktop-full-2.jpg)
+
+![AnkhCore on the second theme](docs/images/desktop-dashboard-2.jpg)
 ## Contents
 
 1. [Main navigation](#main-navigation)
