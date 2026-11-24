@@ -9,6 +9,70 @@ Windows 10 and Windows 11.
 > **Status:** Beta. Some features depend on your Windows version, hardware and third-party
 > components; those dependencies are stated next to each feature below.
 
+## Anubis - the window-animation engine
+
+**Anubis - Windows Animations** (version 3.6) is AnkhCore's own Windhawk mod. It animates the four things
+a window does - **minimize, restore, open and close** - and the Alt+Tab switch, and it goes far beyond a
+fade or a slide:
+
+- **20 numbered effects**, written for Anubis: Thanos Snap, Shatter, Pixel Collapse and Rebuild, Vortex
+  (a window that twists into a spiral galaxy), Singularity, Pixel Implosion, Side Collapse, Digital Glitch
+  in three flavours (RGB Split, Spectrum, Signal Corruption), Horizontal and Vertical Disintegration,
+  Pixel Wave, Radial Burst, Digital Evaporation and more.
+- **56 Reality Effects in five families** - the family is part of the name:
+  - **(ANKH)** - the signature family, 20 effects (see below).
+  - **(LIGHT)** - Prism Burst, Rainbow Dispersion, Hologram, VHS Tracking, Glitch Burst and others.
+  - **(3D)** - genuine 3D facet rendering: Tile Flip (the window splits into cards that flip one after
+    another) and Split Spin (strips spinning about their own axes while flying apart into depth).
+  - **(MATERIAL)** - Spectral Ripple, Color Bleed, Datamosh, Pixel Sort, Chromatic Wave, Spectrum Slice,
+    Liquid Glass, Glass Morph.
+  - **(SPACE)** - Prism Vortex, Portal Transition, Plasma Transition and more.
+- **The AnkhCore Signature Library** - eight embedded Egyptian and cyber symbols (Cyber Anubis, Royal Winged
+  Anubis, Anubis Ring Guardian, Horus Emblem, Cyber Ankh, Solar Winged Scarab, Eye Pyramid and Pharaoh
+  Mask) that appear *inside* the window's own animation, each with its own 3D Shatter, Glitch, RGB,
+  Hologram, Portal or Prism effect. Open a window and an Anubis seal forms; minimize it and a glowing ankh
+  shatters it. As far as the author knows, this is the first time Windows windows have been animated with
+  a branded signature library like this.
+- **Every effect works for every event.** Any effect can be the fixed style, can be ticked into a random
+  pool, and can be chosen per program.
+- **Smart randomness.** Four independent random engines (one per event), *Shuffle* (every effect plays once
+  before any repeats) or *Pure random* (never the same effect twice in a row), "vary each time" (a new
+  direction, focus point and noise pattern for every animation), and **paired restore** - a window comes
+  back with the mirror of the effect it left with.
+- **Per-program identity.** Add `explorer.exe`, Notepad or any program and give it its own animation, or
+  none at all.
+- **Safe and smooth.** The effect is drawn on a ghost window while the real window is never touched, and
+  Reality frames are rendered on all your CPU cores.
+
+The recordings further down show these effects on a real desktop.
+
+> **Credit.** Anubis is an independently maintained derivative of *Windows Animations* by ReDrag (MIT
+> licence). The original licence and attribution are preserved; the effects, the Reality and Signature
+> families and the engine above were added by As3aD Elbahary.
+
+## Change your whole icon set in seconds - no restart, no system files touched
+
+The **Icon Manager** (Windows Studio > Appearance & Themes) switches the icons of the entire system - File
+Explorer, the Start menu, This PC, drives, folders, system dialogs - from one click:
+
+- **In about three seconds** on the author's PC, from one icon theme to another.
+- **No restart** and no sign-out. Windows is told the icons changed and repaints them; the page says plainly
+  what was verified and offers *Restart Explorer* if a window still shows the old icons.
+- **No system files are modified.** Windows' own `imageres.dll`, `shell32.dll` and the other icon
+  libraries stay exactly as Microsoft shipped them. A mod redirects the *loading* of those resources in
+  memory to the theme you chose, so **Restore default icons** is instant and nothing can be left broken
+  on disk.
+- **18 icon themes**, each converted by AnkhCore into the form the redirect needs, validated before it is
+  applied, with a recovery point first.
+- The older method of swapping the icon files (which needs a restart) is still there as a secondary
+  recovery option.
+
+Under the hood this is done by the **Icon Resource Redirect** Windhawk mod, which is third-party work by
+m417z (GPL v3) and ships with AnkhCore. What AnkhCore adds is everything around it: the theme catalogue,
+the conversion of 7TSP-style packs, validation, one-click apply and switch, restore, recovery points and the
+honest status messages. To the author's knowledge, no other tool lets you swap a full Windows icon theme
+this quickly without a restart and without patching system files.
+
 ## Windows animations in action
 
 With the **Anubis - Windows Animations** mod (managed from Windows Studio > Windhawk), ordinary Windows
@@ -68,6 +132,10 @@ the theme applied to the Start menu, File Explorer and the quick settings flyout
 
 ![AnkhCore on the second theme](docs/images/desktop-dashboard-2.jpg)
 ## Contents
+
+0. Highlights: [Anubis window animations](#anubis---the-window-animation-engine) ·
+   [Instant icon themes](#change-your-whole-icon-set-in-seconds---no-restart-no-system-files-touched) ·
+   [Animations in action](#windows-animations-in-action)
 
 1. [Main navigation](#main-navigation)
 2. [Dashboard](#dashboard)
