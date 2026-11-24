@@ -36,6 +36,18 @@ the theme applied to the Start menu, File Explorer and the quick settings flyout
 
 ![Portal ring, glowing ankh and rainbow border](docs/images/effects-portal-ankh-border.gif)
 
+**Opening and closing windows** - File Explorer ("This PC") and Notepad
+
+![Opening and closing windows](docs/images/window-open-close.gif)
+
+**Minimizing and restoring AnkhCore** - four rounds, each with a different effect
+
+![Minimizing and restoring AnkhCore](docs/images/app-minimize-restore.gif)
+
+**Start menu** - opening and closing (animated)
+
+![Start menu animation](docs/images/start-menu.gif)
+
 **A restore caught mid-effect, and the full desktop**
 
 ![Restore effect](docs/images/effect-glitch-restore.jpg)
