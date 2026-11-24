@@ -6,9 +6,6 @@ Windows 10 and Windows 11.
 
 ![AnkhCore tour](docs/images/tour.gif)
 
-**Watch the announcement video** (AnkhCore V4 - NVIDIA Cinema Master, MP4, about 160 MB):
-[download / play AnkhCore_V4_NVIDIA_Cinema_Master.mp4](https://github.com/ankhcore/AnkhCore/releases/download/v3.0.3/AnkhCore_V4_NVIDIA_Cinema_Master.mp4)
-
 > **Status:** Beta. Some features depend on your Windows version, hardware and third-party
 > components; those dependencies are stated next to each feature below.
 
