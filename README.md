@@ -385,3 +385,25 @@ tools are **not** included, so a full installer cannot be built from this reposi
 
 All rights reserved. The source is published for viewing only; see
 `installer/THIRD-PARTY-NOTICES.txt` for third-party components.
+
+## Special thanks
+
+AnkhCore stands on the work of many people. Thank you to:
+
+- **ReDrag** - for *Windows Animations*, the foundation Anubis grew from.
+- **m417z** and the **Windhawk** team (Ramen Software) - for Windhawk and the *Resource Redirect* mod that
+  makes instant icon themes possible, and for the community mods AnkhCore manages.
+- **namazso** - for **PawnIO**, its hardware modules and **SecureUxTheme**.
+- **The LibreHardwareMonitor contributors**, **Florian K. (Blacktempel)** and **James F. Bellinger** (HidSharp) -
+  for the sensor libraries behind the hardware readings.
+- **The NoteBook FanControl (NBFC) authors and contributors** - for the notebook fan configurations.
+- **Bruce Allen, Christian Franke and the smartmontools contributors** - for SMART disk diagnostics.
+- **Marti Climent and the UniGetUI contributors** - for program updates.
+- **Microsoft and the PowerToys contributors** - for PowerToys.
+- **The authors of the projects that inspired AnkhCore's own tools** - System Informer, Process Governor,
+  Sophia Script, WinUtil, BleachBit, Ananicy and ThreadPilot.
+- **The community theme, cursor and icon-pack creators** - niivu, Mr GRiM, Moonnique, Dark Knight, Mr Blade,
+  Razorsedge and everyone behind BIB, HUD Evolution, Tech Icons, Magnum Dark, Sweet Paranoia and Big Sur 2.
+
+Every component stays under its own licence; see
+[installer/THIRD-PARTY-NOTICES.txt](installer/THIRD-PARTY-NOTICES.txt).
